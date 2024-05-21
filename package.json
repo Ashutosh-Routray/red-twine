@@ -15,11 +15,13 @@
     "@nuxtjs/web-vitals": "^0.2.7",
     "@vue-flow/core": "^1.33.8",
     "nuxt": "^3.11.2",
+    "primevue": "^3.52.0",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-module": "^4.1.0",
-    "eslint": "^8.0.0"
+    "eslint": "^8.0.0",
+    "nuxt-primevue": "^0.3.1"
   }
 }

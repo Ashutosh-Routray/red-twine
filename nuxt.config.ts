@@ -3,11 +3,11 @@ export default defineNuxtConfig({
   // modules: ["@hebilicious/authjs-nuxt"],
   devtools: {
     enabled: true,
-
     timeline: {
       enabled: true
     }
   },
-
-  // modules: ["@hebilicious/authjs-nuxt"]
+  modules: [
+    'nuxt-primevue'
+  ]
 })
