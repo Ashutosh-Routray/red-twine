@@ -12,7 +12,7 @@ let
   ];
 
   packages = with pkgs; [
-    nodejs_21
+    nodejs_22
     nodePackages.pnpm
     chromium
     vscode
