@@ -1,6 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  // modules: ["@hebilicious/authjs-nuxt"],
   devtools: {
     enabled: true,
     timeline: {
@@ -8,6 +7,9 @@ export default defineNuxtConfig({
     }
   },
   modules: [
-    'nuxt-primevue'
+    'nuxt-primevue',
+    "@pinia/nuxt",
+    '@nuxt/test-utils/module',
+    // "@hebilicious/authjs-nuxt"
   ]
 })
